@@ -6,8 +6,14 @@
     --collection-description-color:#787885;
 }
 
+header,
+footer
+{
+    font-family: "Poppins", sans-serif;
+}
+
 /* font-family: "Inter", sans-serif; */
-/* font-family: "Poppins", sans-serif; */
+
 
 /* font family */
 
@@ -28,11 +34,19 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    color: var(--header-color);
+    font-weight: 700;
 }
 
 nav ul{
     display: flex;
     gap: 34px;
+    align-items: center;
 }
 
 nav li {
@@ -42,4 +56,5 @@ nav li {
 nav a{
     text-decoration: none;
     color: var(--header-color);
+    font-weight: 600;
 }   
