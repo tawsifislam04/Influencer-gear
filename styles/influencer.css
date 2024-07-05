@@ -35,6 +35,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .nav-title{
@@ -58,3 +59,12 @@ nav a{
     color: var(--header-color);
     font-weight: 600;
 }   
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
