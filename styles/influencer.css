@@ -1,0 +1,45 @@
+/* Shared Style */
+
+:root{
+    --header-color:#3A3A3A;
+    --collection-color:#18191F;
+    --collection-description-color:#787885;
+}
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Header Style */
+
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Nav Style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 34px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--header-color);
+}   
