@@ -113,6 +113,14 @@ nav a{
     padding-bottom: 36px;
 }
 
+.collection{
+    max-width: 1047px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
 
 
 
@@ -172,6 +180,12 @@ nav a{
     .banner-img{
         margin: 14px 21px 22px 21px;
     }
+
+    .sponsor{
+        flex-wrap: wrap;
+        gap: 31px;
+        align-items: center;
+    }
 }
 
 
@@ -180,5 +194,9 @@ nav a{
 @media screen and (min-width: 576px) and (max-width : 992px) {
     nav{
         flex-direction: column;
+    }
+    .sponsor{
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
