@@ -7,7 +7,8 @@
 }
 
 header,
-footer
+footer,
+.collection-title
 {
     font-family: "Poppins", sans-serif;
 }
@@ -113,9 +114,18 @@ nav a{
     padding-bottom: 36px;
 }
 
+/* Collection Style */
+
 .collection{
     max-width: 1047px;
     margin: 0 auto;
+}
+
+.collection-title{
+    text-align: center;
+}
+
+.card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
