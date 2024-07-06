@@ -89,3 +89,85 @@ nav a{
     cursor: pointer;
     margin-top: 0;
 }
+
+.banner-img{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+
+/* Mobile Device */
+
+@media screen and (max-width: 576px) {
+    nav
+    {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: center;
+        margin-top: 0 ;
+    }
+    .banner-img{
+        margin: 14px 21px 22px 21px;
+    }
+}
+
+
+/* Tab/Medium Device */
+
+@media screen and (min-width: 576px) and (max-width : 992px) {
+    nav{
+        flex-direction: column;
+    }
+}
