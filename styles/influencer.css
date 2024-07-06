@@ -100,7 +100,18 @@ nav a{
     width: 100%;
 }
 
+/* Sponsor Style */
 
+.sponsor{
+    display: flex;
+    max-width: 1110px;
+    margin: 70px auto 100px auto;
+    justify-content: space-around;
+    border-top: 1px solid var(--header-color) ;
+    border-bottom: 1px solid var(--header-color);
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
 
 
 
